@@ -50,6 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
       '.field-card',
       '.focus-card',
       '.project-card',
+      '.photo-highlight',
+      '.photo-tile',
       '.achievement-card',
       '.timeline article',
     ].join(', ')
