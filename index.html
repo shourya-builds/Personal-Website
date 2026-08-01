@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shourya Singh — AI, Embedded Systems, and Robotics. B.Tech CSE student building software and hardware projects.">
+  <title>Shourya Singh | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Go to home">
+      <span class="brand-mark">SS</span>
+      <span>Shourya Singh</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about" data-nav>About</a>
+      <a href="#focus" data-nav>Focus</a>
+      <a href="#projects" data-nav>Projects</a>
+      <a href="#hardware" data-nav>Hardware</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#achievements" data-nav>Achievements</a>
+      <a href="#contact" data-nav>Contact</a>
+      <a class="resume-link" href="#" aria-disabled="true" title="Resume coming soon">Resume</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-band">
+      <div class="hero-copy">
+        <p class="eyebrow">&gt; second_year.cse_student</p>
+        <h1>Shourya Singh</h1>
+        <p class="hero-role">AI &middot; Full-Stack Development &middot; Embedded Systems &middot; Robotics</p>
+        <p class="hero-text">
+          I'm a Computer Science student who builds across the stack — from AI-powered applications and
+          full-stack web platforms to embedded systems and robotics. I like taking ideas from a blank repo,
+          or a breadboard, all the way to something that actually works.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="hero-links">
+          <a class="icon-button" href="https://github.com/shourya-builds" target="_blank" rel="noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-1.03-.01-1.87-2.78.61-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.55-1.14-4.55-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.2C22 6.58 17.52 2 12 2Z"></path>
+            </svg>
+            GitHub
+          </a>
+          <a class="icon-button" href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-disabled="true" title="Coming soon">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M6.94 8.5H3.56V20.5H6.94V8.5ZM5.25 3.5C4.14 3.5 3.25 4.4 3.25 5.5C3.25 6.6 4.14 7.5 5.25 7.5C6.36 7.5 7.25 6.6 7.25 5.5C7.25 4.4 6.36 3.5 5.25 3.5ZM20.75 20.5V13.9C20.75 10.6 19.2 9.1 16.9 9.1C15.15 9.1 14.13 10.05 13.63 10.95V8.5H10.25C10.29 9.32 10.25 20.5 10.25 20.5H13.63V13.9C13.63 13.55 13.66 13.2 13.77 12.95C14.06 12.25 14.72 11.53 15.83 11.53C17.29 11.53 17.87 12.62 17.87 14.22V20.5H20.75Z"></path>
+            </svg>
+            LinkedIn
+          </a>
+          <a class="icon-button" href="mailto:shourya8607@gmail.com">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect>
+              <path d="M3 6l9 7 9-7"></path>
+            </svg>
+            Email
+          </a>
+          <a class="icon-button" href="#" aria-disabled="true" title="Resume coming soon">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <path d="M6 2.5h8l4 4V21a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1Z"></path>
+              <path d="M14 2.5V7h4"></path>
+              <path d="M8 13h8M8 16.5h8M8 9.5h3"></path>
+            </svg>
+            Resume
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="code-window">
+          <div class="code-window-bar">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="code-window-title">profile.py</span>
+          </div>
+          <div class="code-window-body">
+            <p><span class="tok-kw">class</span> <span class="tok-fn">Engineer</span>:</p>
+            <p class="indent"><span class="tok-fn">def</span> <span class="tok-fn">__init__</span>(self):</p>
+            <p class="indent-2">self.name = <span class="tok-str">"Shourya Singh"</span></p>
+            <p class="indent-2">self.focus = [</p>
+            <p class="indent-3"><span class="tok-str">"AI"</span>,</p
+            <p class="indent-3"><span class="tok-str">"Embedded Systems"</span>,</p>
+            <p class="indent-3"><span class="tok-str">"Robotics"</span>,</p>
+            <p class="indent-2">]</p>
+            <p class="indent-2">self.status = <span class="tok-str">"building"</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">&gt; about</p>
+        <h2>Who I am.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main">
+          <p>
+            Hi, I'm Shourya Singh, a second-year B.Tech Computer Science Engineering student with a strong
+            interest in Artificial Intelligence, modern software development, and hands-on hardware.
+          </p>
+          <p>
+            I enjoy building things that combine creativity with problem-solving — whether that's an
+            AI-powered web app or a robot that has to survive an arena. Every project teaches me something
+            new, and I believe the best way to learn is by building.
+          </p>
+          <p>
+            Currently I'm focused on AI-powered applications, React, backend development, and embedded
+            systems projects that push me to think in both software and hardware.
+          </p>
+        </div>
+        <div class="quick-card">
+          <h3>Currently</h3>
+          <ul>
+            <li>Building AI-powered applications</li>
+            <li>Learning React &amp; backend development</li>
+            <li>Building an ESP32 Wi-Fi controlled robot</li>
+            <li>Growing my project portfolio</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted" id="fields">
+      <div class="section-heading">
+        <p class="eyebrow">&gt; fields</p>
+        <h2>What I work in.</h2>
+      </div>
+      <div class="field-grid">
+        <article class="field-card">
+          <span class="card-tag">01</span>
+          <h3>Artificial Intelligence</h3>
+          <p>Exploring AI concepts and machine learning to build smarter, more useful applications.</p>
+        </article>
+        <article class="field-card">
+          <span class="card-tag">02</span>
+          <h3>Full Stack Development</h3>
+          <p>Connecting frontend, backend, and databases into complete working applications.</p>
+        </article>
+        <article class="field-card">
+          <span class="card-tag">03</span>
+          <h3>Embedded Systems</h3>
+          <p>Programming microcontrollers and interfacing sensors, motors, and communication modules.</p>
+        </article>
+        <article class="field-card">
+          <span class="card-tag">04</span>
+          <h3>Robotics</h3>
+          <p>Designing and building robots — from mechanical structure to control logic.</p>
+        </article>
+        <article class="field-card">
+          <span class="card-tag">05</span>
+          <h3>Web Development</h3>
+          <p>Designing and building responsive, functional interfaces for the browser.</p>
+        </article>
+        <article class="field-card">
+          <span class="card-tag">06</span>
+          <h3>Problem Solving</h3>
+          <p>Breaking down real-world problems and working through them with structured thinking and code.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="focus">
+      <div class="section-heading">
+        <p class="eyebrow">&gt; current_focus</p>
+        <h2>What I'm building right now.</h2>
+      </div>
+      <div class="focus-grid">
+        <article class="focus-card">
+          <div class="focus-top">
+            <span class="focus-label">Software &middot; AI</span>
+            <span class="project-status building">In progress</span>
+          </div>
+          <h3>AI Interview Coach</h3>
+          <p>An AI-powered platform for practicing technical interviews with generated feedback.</p>
+          <div class="focus-bar"><span style="width: 55%;"></span></div>
+        </article>
+        <article class="focus-card">
+          <div class="focus-top">
+            <span class="focus-label">Hardware &middot; Robotics</span>
+            <span class="project-status building">In progress</span>
+          </div>
+          <h3>ESP32 Wi-Fi Robot</h3>
+          <p>A Wi-Fi controlled robot with obstacle detection, built on ESP32 and Embedded C.</p>
+          <div class="focus-bar"><span style="width: 65%;"></span></div>
+        </article>
+        <article class="focus-card">
+          <div class="focus-top">
+            <span class="focus-label">Software &middot; Web</span>
+            <span class="project-status ongoing">Ongoing</span>
+          </div>
+          <h3>Full-Stack Development</h3>
+          <p>Continuously strengthening React, Node.js, and database skills through applied projects.</p>
+          <div class="focus-bar"><span style="width: 70%;"></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section muted" id="projects">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">&gt; projects</p>
+          <h2>Things I've built.</h2>
+        </div>
+        <div class="coming-soon-badge">More projects on GitHub soon</div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-media" aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+              <rect x="2.5" y="5.5" width="19" height="14" rx="2"></rect>
+              <circle cx="12" cy="12.5" r="3.4"></circle>
+              <path d="M8 5.5l1.3-2h5.4l1.3 2"></path>
+            </svg>
+            <span>Screenshot coming soon</span>
+          </div>
+          <div class="project-topline">
+            <span class="project-status building">🚧 Currently Building</span>
+          </div>
+          <h3>AI Interview Coach</h3>
+          <p>
+            An AI-powered interview preparation platform that helps students practice technical interviews,
+            receive AI-generated feedback, and improve communication and problem-solving skills.
+          </p>
+          <div class="tag-row">
+            <span>Python</span>
+            <span>AI</span>
+            <span>Web App</span>
+          </div>
+          <a class="project-link" href="https://github.com/shourya-builds" target="_blank" rel="noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+              <rect x="2.5" y="5.5" width="19" height="14" rx="2"></rect>
+              <circle cx="12" cy="12.5" r="3.4"></circle>
+              <path d="M8 5.5l1.3-2h5.4l1.3 2"></path>
+            </svg>
+            <span>Screenshot coming soon</span>
+          </div>
+          <div class="project-topline">
+            <span class="project-status done">Completed</span>
+          </div>
+          <h3>Digital Health Predictor</h3>
+          <p>
+            A web application that predicts digital health using screen-time and user behaviour. It provides
+            health insights, productivity analysis, recommendations, and future predictions.
+          </p>
+          <div class="tag-row">
+            <span>Python</span>
+            <span>Data Analysis</span>
+            <span>Web App</span>
+          </div>
+          <a class="project-link" href="https://github.com/shourya-builds" target="_blank" rel="noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+              <rect x="2.5" y="5.5" width="19" height="14" rx="2"></rect>
+              <circle cx="12" cy="12.5" r="3.4"></circle>
+              <path d="M8 5.5l1.3-2h5.4l1.3 2"></path>
+            </svg>
+            <span>Screenshot coming soon</span>
+          </div>
+          <div class="project-topline">
+            <span class="project-status">2024</span>
+          </div>
+          <h3>AI Image Classifier</h3>
+          <p>
+            Developed as my Class 12 Artificial Intelligence project. The application classifies images using
+            AI concepts and machine learning techniques.
+          </p>
+          <div class="tag-row">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>AI</span>
+          </div>
+          <a class="project-link" href="https://github.com/shourya-builds" target="_blank" rel="noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="project-card project-card-muted">
+          <div class="project-topline">
+            <span class="project-status">Coming Soon</span>
+          </div>
+          <h3>More Projects</h3>
+          <p>
+            Many more exciting projects are currently under development and will soon be available on my GitHub.
+          </p>
+          <a class="project-link" href="https://github.com/shourya-builds" target="_blank" rel="noreferrer">Visit GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="hardware">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">&gt; hardware_and_robotics</p>
+          <h2>Where code meets circuits.</h2>
+        </div>
+        <div class="coming-soon-badge">Build logs on GitHub</div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card hardware-card">
+          <div class="project-media" aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+              <rect x="7" y="7" width="10" height="10" rx="1.2"></rect>
+              <path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"></path>
+            </svg>
+            <span>Build photos coming soon</span>
+          </div>
+          <div class="project-topline">
+            <span class="project-status done">Completed &middot; 2024</span>
+          </div>
+          <h3>RoboWars Robot</h3>
+          <p>
+            Designed and built a combat robot for a RoboWars competition, gaining hands-on experience in
+            mechanical design, motor selection, power systems, and troubleshooting under pressure.
+          </p>
+          <div class="tag-row">
+            <span>Mechanical Design</span>
+            <span>Motors</span>
+            <span>Power Systems</span>
+            <span>Combat Robotics</span>
+          </div>
+          <a class="project-link" href="https://github.com/shourya-builds" target="_blank" rel="noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="project-card hardware-card">
+          <div class="project-media" aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+              <rect x="7" y="7" width="10" height="10" rx="1.2"></rect>
+              <path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"></path>
+            </svg>
+            <span>Build photos coming soon</span>
+          </div>
+          <div class="project-topline">
+            <span class="project-status building">🚧 Currently Building</span>
+          </div>
+          <h3>ESP32 Wi-Fi Controlled Robot</h3>
+          <p>
+            Building a Wi-Fi controlled robot using ESP32 and Embedded C, with a browser-based control
+            interface, PWM motor control, ultrasonic obstacle detection, and battery monitoring.
+          </p>
+          <div class="tag-row">
+            <span>ESP32</span>
+            <span>Embedded C</span>
+            <span>HTML/CSS/JS</span>
+            <span>PWM Motor Control</span>
+            <span>Ultrasonic Sensing</span>
+            <span>Battery Monitoring</span>
+          </div>
+          <a class="project-link" href="https://github.com/shourya-builds" target="_blank" rel="noreferrer">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section muted" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">&gt; skills</p>
+        <h2>Tools and languages I use.</h2>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skill-column">
+          <h3>Languages</h3>
+          <div class="pill-row">
+            <span>C</span>
+            <span>C++</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-column">
+          <h3>Frontend</h3>
+          <div class="pill-row">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>React</span>
+            <span>Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="skill-column">
+          <h3>Backend</h3>
+          <div class="pill-row">
+            <span>Node.js</span>
+            <span>Express.js</span>
+          </div>
+        </div>
+        <div class="skill-column">
+          <h3>Database</h3>
+          <div class="pill-row">
+            <span>MySQL</span>
+          </div>
+        </div>
+        <div class="skill-column">
+          <h3>Embedded &amp; Robotics</h3>
+          <div class="pill-row">
+            <span>ESP32</span>
+            <span>Embedded C</span>
+            <span>PWM Motor Control</span>
+            <span>Sensors</span>
+          </div>
+        </div>
+        <div class="skill-column">
+          <h3>Tools</h3>
+          <div class="pill-row">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+            <span>Vite</span>
+          </div>
+        </div>
+        <div class="skill-column">
+          <h3>Strengths</h3>
+          <div class="pill-row">
+            <span>Problem Solving</span>
+            <span>Fast Learner</span>
+            <span>Team Collaboration</span>
+            <span>Clean Code</span>
+            <span>Continuous Learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="section-heading">
+        <p class="eyebrow">&gt; achievements</p>
+        <h2>Highlights along the way.</h2>
+      </div>
+      <div class="achievement-grid">
+        <article class="achievement-card">
+          <svg class="icon achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <path d="M8 21h8M12 17v4M6 4h12v3a6 6 0 0 1-12 0V4Z"></path>
+            <path d="M6 5H3v1a4 4 0 0 0 3 3.87M18 5h3v1a4 4 0 0 1-3 3.87"></path>
+          </svg>
+          <h3>Built &amp; competed with a combat robot</h3>
+          <p>Designed, wired, and battle-tested a robot for RoboWars — real mechanical and power-system constraints, not just theory.</p>
+        </article>
+        <article class="achievement-card">
+          <svg class="icon achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <rect x="3" y="4" width="18" height="13" rx="1.5"></rect>
+            <path d="M8 21h8M12 17v4"></path>
+            <path d="M7 10.5l2.5 2.5L7 15.5M13 15.5h4"></path>
+          </svg>
+          <h3>Shipped an AI project independently</h3>
+          <p>Built an image classifier from scratch as my Class 12 AI project, applying core ML concepts end to end.</p>
+        </article>
+        <article class="achievement-card">
+          <svg class="icon achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+            <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+            <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+            <rect x="14" y="14" width="7" height="7" rx="1"></rect>
+          </svg>
+          <h3>Working across two disciplines at once</h3>
+          <p>Actively building an AI interview coach and an ESP32 Wi-Fi robot in parallel — software and hardware, side by side.</p>
+        </article>
+        <article class="achievement-card">
+          <svg class="icon achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <path d="M4 12a8 8 0 1 1 8 8"></path>
+            <path d="M4 12v5h5"></path>
+            <path d="M12 8v4l3 2"></path>
+          </svg>
+          <h3>A skill set spanning full stack to firmware</h3>
+          <p>Comfortable moving from React interfaces to PWM motor control and sensor logic on a microcontroller.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section muted" id="journey">
+      <div class="section-heading">
+        <p class="eyebrow">&gt; journey</p>
+        <h2>How I got here.</h2>
+      </div>
+
+      <div class="timeline">
+        <article>
+          <span>2024</span>
+          <h3>First software &amp; hardware builds</h3>
+          <p>Built my first AI project — AI Image Classifier — and competed with a combat robot at RoboWars.</p>
+        </article>
+        <article>
+          <span>2026</span>
+          <h3>Full-stack &amp; AI applications</h3>
+          <p>Started building larger full-stack and AI-powered applications.</p>
+        </article>
+        <article>
+          <span>Present</span>
+          <h3>AI Interview Coach &amp; ESP32 Robot</h3>
+          <p>Working on AI Interview Coach and an ESP32 Wi-Fi controlled robot, while expanding my GitHub portfolio.</p>
+        </article>
+        <article>
+          <span>Future</span>
+          <h3>Impactful AI &amp; robotics products</h3>
+          <p>Build impactful products at the intersection of AI, software, and robotics that solve real-world problems.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section-band" id="contact">
+      <div>
+        <p class="eyebrow">&gt; contact</p>
+        <h2>Let's build, learn, or collaborate.</h2>
+        <p>
+          Feel free to reach out — I'm always open to learning opportunities and interesting projects,
+          software or hardware.
+        </p>
+      </div>
+      <div class="contact-actions">
+        <a class="button primary" href="mailto:shourya8607@gmail.com">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect>
+            <path d="M3 6l9 7 9-7"></path>
+          </svg>
+          Email Me
+        </a>
+        <a class="button secondary" href="https://github.com/shourya-builds" target="_blank" rel="noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-1.03-.01-1.87-2.78.61-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.55-1.14-4.55-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.2C22 6.58 17.52 2 12 2Z"></path>
+          </svg>
+          GitHub
+        </a>
+        <span class="button secondary disabled" aria-disabled="true">LinkedIn — Coming Soon</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built by Shourya</p>
+    <p>© 2026 Shourya Singh</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
